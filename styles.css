@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Ubuntu-L;
+    src: url(fonts/Ubuntu-L.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Ubuntu-L;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #04AA6B, #96D4D4);
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar_top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#href {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.repository {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.github_logo {
+    vertical-align: middle;
+    width: 84px;
+    height: 28px;
+}
+
+.cat_logo {
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+}
